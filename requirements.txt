@@ -1,0 +1,6 @@
+matplotlib
+numpy
+scipy
+PIL
+keras
+opencv-python
