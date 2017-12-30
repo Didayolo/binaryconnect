@@ -32,7 +32,7 @@ class BinaryDense(Dense):
     References: 
     "BinaryNet: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1" [http://arxiv.org/abs/1602.02830]
     '''
-    def __init__(self, units, H=1., kernel_lr_multiplier='Glorot', bias_lr_multiplier=None, deterministic=False, **kwargs):
+    def __init__(self, units, H=1., kernel_lr_multiplier='Glorot', bias_lr_multiplier=None, deterministic=True, **kwargs):
         super(BinaryDense, self).__init__(units, **kwargs)
         self.H = H
         self.kernel_lr_multiplier = kernel_lr_multiplier

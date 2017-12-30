@@ -2,6 +2,7 @@
 from __future__ import absolute_import
 import keras.backend as K
 import random
+import numpy as np
 
 def round_through(x):
     '''Element-wise rounding to the closest integer with full gradient propagation.
@@ -88,6 +89,9 @@ def binarize(W, H=1, deterministic=False):
     - [BinaryNet: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1, Courbariaux et al. 2016](http://arxiv.org/abs/1602.02830}
 
     '''
+    
+    return H * binary_tanh(W / H)
+    """
     if deterministic:
         Wb = deterministic_binarization(W)
         
@@ -97,7 +101,7 @@ def binarize(W, H=1, deterministic=False):
         stochastic_binarization(W)
         
     return Wb
-
+    """
 
 def _mean_abs(x, axis=None, keepdims=False):
     return K.stop_gradient(K.mean(K.abs(x), axis=axis, keepdims=keepdims))
