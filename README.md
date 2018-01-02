@@ -6,6 +6,8 @@ Le principe général est de binairiser (-1 ou +1) les poids d'un réseau neuron
 
 [Le Drive contenant les images de test](https://drive.google.com/drive/folders/1WFG3A7NDteLy66UbhyV_aIvolDCU6eB9)
 
+#### Mise en place
+
 Faire `pip install requirements.txt`.
 
 Pour faire tourner le programme, il faut d'abord récupérer les images sur le drive. Ce sont les images de base récupérées sur Google Images. Elles doivent être dans un dossier `Images/Originales`, et la structure avec chaque dossier représentant une classe doit être respectée.
