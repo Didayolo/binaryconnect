@@ -142,22 +142,22 @@ if __name__ == "__main__":
 	print_image(img, colors)
 	"""
 	########### Resize #############
-	#resize_all_images()
+	resize_all_images()
 
 	######### Blur + resize ##########
-	#resize_all_images(blur=True)
+	resize_all_images(blur=True)
 
 	######### Noise + resize ##########
-	#resize_all_images(noisy=True)
+	resize_all_images(noisy=True)
 	
 	######### Noise + Blur + resize ##########
-	#resize_all_images(blur=True,noisy=True)
+	resize_all_images(blur=True,noisy=True)
 	
 	######### Rotate + resize ##########
-	#resize_all_images(rotate=True)
+	resize_all_images(rotate=True)
 
 	######### Noise + resize ##########
-	#resize_all_images(noisy=True,rotate=True)
+	resize_all_images(noisy=True,rotate=True)
 
 	
 	######## High contrast increase + resize ##########
