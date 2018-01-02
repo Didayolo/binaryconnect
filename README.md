@@ -8,7 +8,7 @@ Le principe général est de binairiser (-1 ou +1) les poids d'un réseau neuron
 
 #### Mise en place
 
-Faire `pip install requirements.txt`.
+Faire `pip install -r requirements.txt`.
 
 Pour faire tourner le programme, il faut d'abord récupérer les images sur le drive. Ce sont les images de base récupérées sur Google Images. Elles doivent être dans un dossier `Images/Originales`, et la structure avec chaque dossier représentant une classe doit être respectée.
 
