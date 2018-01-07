@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# Source : https://github.com/DingKe/nn_playground/tree/master/binarynet
+
 from __future__ import absolute_import
 import keras.backend as K
 import random

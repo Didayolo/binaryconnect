@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# Source : https://github.com/DingKe/nn_playground/tree/master/binarynet
+
 import numpy as np
 
 from keras import backend as K
